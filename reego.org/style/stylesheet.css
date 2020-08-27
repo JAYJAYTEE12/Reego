@@ -1,0 +1,18 @@
+
+/* Home Page */
+
+.back{
+    background-color: #121212;
+}
+
+.cmd{
+    width: 100%;
+    background-color: #121212;
+    font-size: 1.4rem;
+}
+
+input{
+    color: #ffffff;
+    border-color: #121212;
+    border: 1px;
+}
