@@ -6,9 +6,17 @@
 }
 
 .cmd{
-    width: 100%;
+    width: 60%;
     background-color: #121212;
     font-size: 1.4rem;
+    display: inline-block;
+}
+
+.prefix{
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 1.5rem;
+    color: #ffffff;
 }
 
 input{
