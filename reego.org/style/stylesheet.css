@@ -6,7 +6,7 @@
 }
 
 .cmd{
-    width: 60%;
+    width: 75%;
     background-color: #121212;
     font-size: 1.4rem;
     display: inline-block;
@@ -14,13 +14,36 @@
 
 .prefix{
     display: inline-block;
+    float: left;
     margin-right: 5px;
+    font-family: 'Ubuntu Mono', monospace;
     font-size: 1.5rem;
+}
+
+.green{
+    color: #4feb34;
+    display: inline-block;
+    float: left;
+}
+
+.blue{
+    color: #2ee5e8;
+    display: inline-block;
+    float: left;
+}
+
+.normal{
     color: #ffffff;
+    display: inline-block;
+    float: left;
 }
 
 input{
     color: #ffffff;
     border-color: #121212;
     border: 1px;
+}
+
+select, textarea{
+    color: #121212;
 }
