@@ -9,12 +9,42 @@
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet"> 
     </head>
     <body class="back">
-        <div class="prefix">
-            <div class="green">guest@reego.org</div>
-            <div class="normal">:</div>
-            <div class="blue">/main/home</div>
-            <div class="normal">$</div>
+		<div class="help" id="helpid">
+			<div class="text">
+				For more information on a specific command, type HELP command-name
+				<table>
+					<tr>
+						<td width="200px">HELP</td>
+						<td>Displays this help message.</td>
+					</tr>
+					<tr>
+						<td width="200px">CREDITS</td>
+						<td>Displays who created the website.</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<div class="credits" id="creditsid">
+			<div class="text">
+				These are the main people who developed REEGO
+				<table>
+					<tr>
+						<td width="100px">CEO</td>
+						<td>Jack Trowbridge</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+        <div class="command" id="commandid">
+			<div class="prefix">
+				<div class="green">guest@reego.org</div>
+				<div class="normal">:</div>
+				<div class="blue">/main/home</div>
+				<div class="normal">$</div>
+			</div>
+			<input type="text" id="line" class="cmd">
         </div>
-        <input type="text" id="line" class="cmd">
     </body>
 </html>

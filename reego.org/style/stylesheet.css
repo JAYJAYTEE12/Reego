@@ -20,6 +20,10 @@
     font-size: 1.5rem;
 }
 
+.command{
+	margin-top: 5px;
+}
+
 .green{
     color: #4feb34;
     display: inline-block;
@@ -46,4 +50,20 @@ input{
 
 select, textarea{
     color: #121212;
+}
+
+/* Help Text */
+
+.help{
+	display: none;
+}
+
+.credits{
+	display: none;
+}
+
+.text, .text table tr td{
+	font-size: 1.5rem;
+	font-family: 'Ubuntu Mono', monospace;
+	color: #ffffff;
 }
