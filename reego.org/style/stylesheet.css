@@ -71,3 +71,11 @@ select, textarea{
 	font-family: 'Ubuntu Mono', monospace;
 	color: #ffffff;
 }
+
+/* Mobile Page */
+
+.mobile-text{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
